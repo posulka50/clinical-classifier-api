@@ -1,6 +1,6 @@
+import logging
 from contextlib import asynccontextmanager
 from typing import AsyncGenerator
-import logging
 
 from fastapi import FastAPI
 from prometheus_fastapi_instrumentator import Instrumentator

@@ -4,8 +4,8 @@ from fastapi import APIRouter, Depends, Request
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.database import get_db
-from app.dependencies import verify_api_key
 from app.db_models import PredictionLog
+from app.dependencies import verify_api_key
 from app.schemas import PredictRequest, PredictResponse
 
 logger = logging.getLogger(__name__)
