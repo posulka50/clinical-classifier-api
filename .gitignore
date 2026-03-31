@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+.idea/
+.venv/
+venv/
+artifacts/model.pt
+artifacts/scaler.pkl
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
