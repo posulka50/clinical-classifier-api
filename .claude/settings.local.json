@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(.venv/Scripts/ruff check:*)",
+      "Bash(python:*)",
+      "Bash(where ruff:*)",
+      "Bash(ruff check:*)"
+    ]
+  }
+}
